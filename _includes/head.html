@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/public/styles/theme.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <script>
+        // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        // e.src='https://www.google-analytics.com/analytics.js';
+        // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        // ga('create','{{ site.ga_tracking }}','auto');ga('send','pageview');
+    </script>
+</head>

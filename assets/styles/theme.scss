@@ -1,0 +1,9 @@
+// Normalize reset
+@import "node_modules/normalize.scss/normalize";
+
+// Include Bourbon & Neat libraries
+@import "node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "node_modules/bourbon-neat/app/assets/stylesheets/neat";
+
+// Import styles
+@import "base";
