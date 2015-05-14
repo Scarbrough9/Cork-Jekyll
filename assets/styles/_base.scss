@@ -1,14 +1,26 @@
+%shade {
+    background-color: #efefef;
+}
+
+%fullWidthBand {
+    padding: 2rem 0;
+}
+
 body {
+   @extend %shade;
+}
+
+#site-header,
+#site-footer {
+    @extend %fullWidthBand;
+    @extend %shade;
+}
+
+#main {
     background-color: #ffffff;
-    font-size: 16px;
+    @extend %fullWidthBand;
+}
 
-    > header {
-        background-color: #f3f3f3;
-        padding: 1rem;
-
-        h1 {
-            margin: 0;
-            font-size: 140%;
-        }
-    }
+.wrapper {
+    @include outer-container;
 }
