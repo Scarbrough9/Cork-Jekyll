@@ -6,14 +6,15 @@ module.exports = function() {
         console.log(hook);
         setTimeout(function() {
             console.log('Wait for it...');
-        }, 1000);
-        setTimeout(function() {
-            console.log('Wait for it...');
         }, 2000);
         setTimeout(function() {
+            console.log('Wait for it...');
+        }, 4000);
+        setTimeout(function() {
             console.log(punchline);
-        }, 3000);
-        return hahaha;
+        }, 6000);
     };
+
+    gotJokes();
 
 };
