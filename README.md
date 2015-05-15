@@ -26,3 +26,6 @@ Please note that all of this is not required to develop a Jekyll site locally, t
 3. Pull down a fresh copy of the latest Cork Theme using the `wget` command:
 
 
+<script>
+console.log('test');
+</script>
