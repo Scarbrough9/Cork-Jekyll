@@ -27,5 +27,5 @@ Please note that all of this is not required to develop a Jekyll site locally, t
 
 
 <script>
-var latest = 'testing';
+    latest = 'testing';
 </script>
