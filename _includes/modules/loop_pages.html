@@ -1,0 +1,12 @@
+{% if site.pages != null %}
+    <ul class="page-list">
+    {% assign ordered_pages = site.pages | sort:"weight" %}
+    {% for page in ordered_pages %}
+        {% if page.title != null %}
+        <li class="list-item">
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endif %}

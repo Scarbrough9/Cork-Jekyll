@@ -11,5 +11,6 @@ gulp.task('build:production', [
   'styles:production',
   'vendorScripts',
   'scripts',
-  'jekyll-build'
+  'jekyll-build',
+  'minify-html'
 ]);

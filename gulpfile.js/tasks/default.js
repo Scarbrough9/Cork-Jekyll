@@ -1,7 +1,7 @@
 var gulp    =   require('gulp'),
     watchedFiles    =   [
         'index.html',
-        '_includes/*.html',
+        '_includes/**/*.html',
         '_layouts/*.html',
         '_posts/*',
         '_pages/*'

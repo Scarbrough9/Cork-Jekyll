@@ -1,0 +1,9 @@
+{% if site.posts != null %}
+    <ul class="post-list">
+    {% for post in site.posts %}
+        <li class="list-item">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">[ {{ post.date | date: "%b %-d, %Y" }} ] {{ post.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}

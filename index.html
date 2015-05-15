@@ -1,31 +1,18 @@
 ---
 layout: default
 title: "Home"
+weight: 1
 ---
 
 <div class="wrapper">
-
+    <p>This is the homepage of your starter theme, not to be confused with a Starter jacket. Starter jackets are gangster, as am I.</p>
+    <p>Here are two examples of Jekyll includes put to use. One is a posts loop and the other is a weighted pages loop. The pages in this loop are sorted by weight which is assigned in each page's YAML Front Matter.</p>
+    <hr>
     <h1 class="heading">Posts</h1>
-
-    <ul class="post-list">
-    {% for post in site.posts %}
-        <li class="list-item">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        </li>
-    {% endfor %}
-    </ul>
-
+    {% include modules/loop_posts.html %}
+    <hr>
     <h1 class="heading">Pages</h1>
-
-    <ul class="page-list">
-    {% for page in site.pages %}
-        <li class="list-item">
-            <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-        </li>
-    {% endfor %}
-    </ul>
-
+    {% include modules/loop_pages.html %}
+    <hr>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

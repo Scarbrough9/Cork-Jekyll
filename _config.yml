@@ -13,5 +13,5 @@ ga_tracking: UA-XXXXX-X
 include: ['_pages']
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 exclude: [assets, gulpfile.js, node_modules, package.json]
