@@ -57,7 +57,7 @@ Please note that all of this is not required to develop a Jekyll site locally, t
     * Browserify is used to transpile custom js
     * BrowserSync is used for live reloading capabilities
 
-    There are other items working behind the scenes, but above is the primary tasks that will be run during development. To get started, just run:
+    There are other items working behind the scenes, but the tasks listed above represent what will be used most during development. To get started, just run:
     ``` bash
     gulp
     ```

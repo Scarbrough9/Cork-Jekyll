@@ -24,3 +24,12 @@ body {
 .wrapper {
     @include outer-container;
 }
+
+.primary {
+    @include span-columns(8);
+    padding: 0 4rem 0 0;
+}
+
+.secondary {
+    @include span-columns(4);
+}
