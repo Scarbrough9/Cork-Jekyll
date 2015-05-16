@@ -25,4 +25,22 @@ Please note that all of this is not required to develop a Jekyll site locally, t
     * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
     * [Installing Node.js](https://www.araport.org/docs/science-apps-configuring-development-environment/installing-nodejs)
 
-3. Next, navigate to the directory where you want to keep the project, i.e., ` cd ~/Sites/Jekyll `. Now you can pull down the latest version of the theme. There are number of methods that you can choose to do this. I prefer to use the ` wget ` command. If you have [Homebrew](http://brew.sh/) installed, you can use the ` wget ` command after running ` brew install wget `.
+3. Next, navigate to the directory where you want to keep the project, i.e., ` cd ~/Sites/Jekyll `. Now you can pull down the latest version of the theme. There are number of methods that you can choose to do this. I prefer to use the ` wget ` command. If you have [Homebrew](http://brew.sh/) installed, you can use the ` wget ` command after running ` brew install wget `. If you prefer grabbing the theme this way, you can run:
+    ``` bash
+
+    # Grab the latest version of the theme
+    wget https://github.com/ScarbroughStudios/Cork-Jekyll/archive/0.2.tar.gz
+
+    # unpack the tar file
+    tar -xvf 0.2.tar.gz
+
+    # Remove the tar
+    rm -rf 0.2.tar.gz
+
+    # rename the directory
+    mv 0.2.tar.gz YOUR_PROJECT_NAME
+
+    ```
+    Other methods would be simply going to the repo on GitHub, downloading the tar.gz file for the release you would like to install, or you can simple clone or fork the repo as you please.
+
+4. Now that you have the 
