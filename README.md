@@ -25,4 +25,4 @@ gem install jekyll
     * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
     * [Installing Node.js](https://www.araport.org/docs/science-apps-configuring-development-environment/installing-nodejs)
 
-3. Next, navigate to the directory where you want to keep the project, i.e., ` cd ~/Sites/Jekyll `. Now you can pull down the latest version of the theme. There are number of methods that you can choose to do this. I prefer to use the ` wget ` command. If you have [Homebrew]() installed, you can use the ` wget ` command after running ` brew install wget `.
+3. Next, navigate to the directory where you want to keep the project, i.e., ` cd ~/Sites/Jekyll `. Now you can pull down the latest version of the theme. There are number of methods that you can choose to do this. I prefer to use the ` wget ` command. If you have [Homebrew](http://brew.sh/) installed, you can use the ` wget ` command after running ` brew install wget `.
