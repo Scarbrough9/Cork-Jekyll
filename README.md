@@ -15,7 +15,9 @@ Please note that all of this is not required to develop a Jekyll site locally, t
 ## Getting Started
 
 1. First, you need to install [Jekyll](http://jekyllrb.com/) by running:
-``` gem install jekyll ```
+``` bash
+gem install jekyll 
+```
 
 2. Next, you need to make sure that you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) properly installed. There are several ways to do this, here are some opinions, I'll leave you to decide...
     * [Installing Node and npm](https://www.joyent.com/blog/installing-node-and-npm/)
@@ -23,4 +25,4 @@ Please note that all of this is not required to develop a Jekyll site locally, t
     * [How to Install Node.js and NPM on a Mac](http://blog.teamtreehouse.com/install-node-js-npm-mac)
     * [Installing Node.js](https://www.araport.org/docs/science-apps-configuring-development-environment/installing-nodejs)
 
-3. Pull down a fresh copy of the latest Cork Theme using the `wget` command:
+3. Next, navigate to the directory where you want to keep the project, i.e., ` cd ~/Sites/Jekyll `. Now you can pull down the latest version of the theme. There are number of methods that you can choose to do this. I prefer to use the ` wget ` command. If you have [Homebrew]() installed, you can use the ` wget ` command after running ` brew install wget `.
