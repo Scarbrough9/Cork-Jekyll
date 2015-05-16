@@ -24,5 +24,3 @@ Please note that all of this is not required to develop a Jekyll site locally, t
     * [Installing Node.js](https://www.araport.org/docs/science-apps-configuring-development-environment/installing-nodejs)
 
 3. Pull down a fresh copy of the latest Cork Theme using the `wget` command:
-
-
