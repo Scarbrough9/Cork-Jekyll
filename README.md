@@ -41,6 +41,29 @@ Please note that all of this is not required to develop a Jekyll site locally, t
     mv 0.2.tar.gz YOUR_PROJECT_NAME
 
     ```
-    Other methods would be simply going to the repo on GitHub, downloading the tar.gz file for the release you would like to install, or you can simple clone or fork the repo as you please.
+    Other methods would be simply going to the repo on GitHub, downloading the tar.gz or .zip file for the release you would like to install, or you can simple clone or fork the repo as you please.
 
-4. Now that you have the 
+4. Regardless of how you grabbed the theme files, you should now have a project directory to worok from. Navigate to that directory ( ` cd YOUR_PROJECT_NAME` ). Now its time to let Node and npm do their thing. Run the following command to fire the project up:
+    ``` bash
+    npm run start
+    ```
+    This task will take a minute or two to setup your theme and run through the gulp tasks that are set to run 
+    Right now, npm "start" simple runs ` npm install `, however, you may find it useful and/or necessary to do more to the files prior to building. Therefore, I have created a "start" task in the [package.json](https://github.com/ScarbroughStudios/Cork-Jekyll/blob/master/package.json) file to allow for some flexibility.
+
+5. Finally, lets make sure this bad boy is working. All of the tasks will be discussed in detail below, but for now, here is what you need to know about developing your project:
+    * Gulp is used for file streams
+    * Sass is used to compile CSS
+    * Concat is used to concatenate vendor js plugins
+    * Browserify is used to transpile custom js
+    * BrowserSync is used for live reloading capabilities
+
+    There are other items working behind the scenes, but above is the primary tasks that will be run during development. To get started, just run:
+    ``` bash
+    gulp
+    ```
+    This will run through the development tasks, open the browser, load your project, and watch for files changes that merit a page reload or CSS injection.
+
+
+#### That's it!
+
+You're all set to start developing a custom Jekyll theme!
