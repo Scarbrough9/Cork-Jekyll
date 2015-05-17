@@ -1,4 +1,5 @@
 # Cork Theme - Jekyll Edition
+[![dependency Status](https://david-dm.org/ScarbroughStudios/cork-jekyll/dev-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=dependencies)
 [![devDependency Status](https://david-dm.org/ScarbroughStudios/cork-jekyll/dev-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=devDependencies)
 
 
@@ -86,5 +87,3 @@ Bourbon Neat
 #### That's it!
 
 You're all set to start developing a custom Jekyll theme!
-
-# About the Theme
