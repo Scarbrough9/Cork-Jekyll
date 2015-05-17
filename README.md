@@ -1,6 +1,10 @@
 # Cork Theme - Jekyll Edition
 [![devDependency Status](https://david-dm.org/ScarbroughStudios/cork-jekyll/dev-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=devDependencies)
 
+
+
+## Features
+
 A [Jekyll](http://jekyllrb.com/) starter theme for developers. The theme includes/utilizes the following features, or opinions, if you want to look at it that way.
 
 - [Jekyll](http://jekyllrb.com/)
@@ -12,6 +16,20 @@ A [Jekyll](http://jekyllrb.com/) starter theme for developers. The theme include
 - [BrowserSync](http://www.browsersync.io/)
 
 Please note that all of this is not required to develop a Jekyll site locally, these tools simply offer a slightly opinionated, but fairly solid local development work flow. This documentation aims to provide some insight regarding the choices made while outlining how to get started.
+
+### Styles
+
+Cork uses the gulp-sass package to handle CSS compiling. This package is a wrapper for node-sass, which is itself a wrapper for libSass. This was chosen because of the speed with which compilation is executed. gulp-sass has recently updated and is now using the updated version of libSass which supports nearly all of the capabilities of ruby Sass.
+
+Autoprefixer
+Sourcemaps
+Minification of production styles
+Bourbon
+Bourbon Neat
+
+### Scripts
+
+
 
 ## Getting Started
 
