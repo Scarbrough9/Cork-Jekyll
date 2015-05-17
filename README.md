@@ -1,4 +1,5 @@
 # Cork Theme - Jekyll Edition
+[![devDependency Status](https://david-dm.org/ScarbroughStudios/cork-jekyll/dev-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=devDependencies)
 
 A [Jekyll](http://jekyllrb.com/) starter theme for developers. The theme includes/utilizes the following features, or opinions, if you want to look at it that way.
 
@@ -67,3 +68,5 @@ Please note that all of this is not required to develop a Jekyll site locally, t
 #### That's it!
 
 You're all set to start developing a custom Jekyll theme!
+
+# About the Theme
