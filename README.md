@@ -1,5 +1,5 @@
 # Cork Theme - Jekyll Edition
-[!(https://david-dm.org/ScarbroughStudios/cork-jekyll/repo-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=dependencies)
+[!(https://david-dm.org/ScarbroughStudios/cork-jekyll.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=dependencies)
 [![devDependency Status](https://david-dm.org/ScarbroughStudios/cork-jekyll/dev-status.svg)](https://david-dm.org/ScarbroughStudios/cork-jekyll#info=devDependencies)
 
 
