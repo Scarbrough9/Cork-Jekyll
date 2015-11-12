@@ -24,13 +24,19 @@ Cork uses the gulp-sass package to handle CSS compiling. This package is a wrapp
 
 Autoprefixer
 Sourcemaps
-Minification of production styles
+Minification
+Normalize
 Bourbon
 Bourbon Neat
 
 ### Scripts
 
+Babel
+Browserify
 
+#### BrowserSync (Live Reloading & CSS Injecting)
+
+Browsersync
 
 ## Getting Started
 
